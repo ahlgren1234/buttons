@@ -1,0 +1,106 @@
+button,
+.btn,
+.btn-tiny,
+.btn-small,
+.btn-large,
+.btn-giant,
+a.btn,
+a.btn-tiny,
+a.btn-small,
+a.btn-large,
+a.btn-giant {
+    border: 0;
+    border-radius: 0;
+    background-color: #dde2d4;
+    color: #333;
+    cursor: pointer;
+    line-height: 1;
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: none;
+    display: inline-block;
+    padding: .75em 1.5em; 
+    outline: none;
+}
+
+button:hover,
+.btn:hover,
+.btn-tiny:hover,
+.btn-small:hover,
+.btn-large:hover,
+.btn-giant:hover,
+a.btn:hover,
+a.btn-tiny:hover,
+a.btn-small:hover,
+a.btn-large:hover,
+a.btn-giant:hover {
+    -moz-box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+    -webkit-box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+}
+
+
+
+
+button.btn-rounded,
+a.btn-rounded {
+    border-radius: 5px;
+}
+
+button.btn-pill,
+a.btn-pill {
+    border-radius: 100px;
+}
+
+
+
+button.btn-tiny,
+a.btn-tiny {
+    font-size: 0.6em;
+}
+
+button.btn-small,
+a.btn-small {
+    font-size: 0.75em; 
+}
+
+button.btn-large,
+a.btn-large {
+    font-size: 2em;
+    font-weight: bold; 
+}
+
+button.btn-giant,
+a.btn-giant {
+  font-size: 2.2em;
+  font-weight: bold;
+  padding: .75em 2em; 
+}
+
+
+button.btn-primary,
+a.btn-primary {
+    background-color: #3399FF;
+    color: #FFF; 
+}
+
+button.btn-success,
+a.btn-success {
+  background-color: #66FF66;
+  color: #FFF;
+}
+
+button.btn-highlight,
+a.btn-highlight {
+  background-color: #FF9900;
+  color: #FFF;
+}
+
+button.btn-caution,
+a.btn-caution {
+  background-color: #FF3300;
+  color: #FFF;
+}
+
+
+
